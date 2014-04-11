@@ -3,7 +3,7 @@
 set :deploy_to, "/home/rotrer/stage/capistrano2"
 
 # Use the correct branch on github. Uncomment this if you have set up seperate branches for each staging area
-# set :branch, "staging"
+set :branch, "master"
 
 # The hostnames to deploy to.
 #role :web, "#{application}-#{stage}.example.com"
